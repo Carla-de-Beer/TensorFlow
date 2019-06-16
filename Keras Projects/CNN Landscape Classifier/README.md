@@ -1,6 +1,6 @@
 # CNN Landscape Classifier
 
-Convolutional neural network built with Tensorflow/Keras to allow for landscape classification based on one of three categories:
+Convolutional neural network built with TensorFlow/Keras to allow for landscape classification based on one of three categories:
 * desert
 * forest
 * polar.
