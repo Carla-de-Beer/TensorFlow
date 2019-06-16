@@ -40,7 +40,7 @@ The program was run over 10 iterations in order to obtain an average validation 
 | 9             |   90.0000              | 78.57  |
 | 10            |   96.6667              | 87.62  |
 
-| Average       | Validation Accuracy (%) | Training Accuracy on Epoch 30 |
+| Average       | Validation Accuracy (%) | Training Accuracy (%) on Epoch 30 |
 | :-----------: | -----------------------:| ------:|
 |               |   95.6667               | 84.99  |
 
