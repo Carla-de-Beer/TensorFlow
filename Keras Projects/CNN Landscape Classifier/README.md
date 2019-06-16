@@ -5,7 +5,7 @@ Convolutional neural network built with TensorFlow/Keras to allow for landscape 
 * forest
 * polar.
 
-This project was inspired by and based on the Coursera course: *Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning*.
+This project was inspired by and based on an example project of the Coursera course: *Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning*.
 
 Resources:
 * Images sourced from Pixabay: https://pixabay.com
@@ -27,22 +27,22 @@ The model was trained on a set of 3 x 70 input images of various sizes. Below is
 ## Model Results
 The program was run over 10 iterations in order to obtain an average validation accuracy.
 
-| Iteration     | Validation Accuracy    | Training Accuracy on Epoch 30 |
+| Iteration     | Validation Accuracy (%)| Training Accuracy (%) on Epoch 30 |
 | :-----------: | ----------------------:| ------:|
-| 1             |   93.3333              | 0.8286 |
-| 2             |   100.0000             | 0.7524 |
-| 3             |   93.3333              | 0.8714 |
-| 4             |   90.0000              | 0.8667 |
-| 5             |   100.0000             | 0.8475 |
-| 6             |   96.6667              | 0.8714 |
-| 7             |   100.0000             | 0.9048 |
-| 8             |   96.6667              | 0.8952 |
-| 9             |   90.0000              | 0.7857 |
-| 10            |   96.6667              | 0.8762 |
+| 1             |   93.3333              | 82.86  |
+| 2             |   100.0000             | 75.24  |
+| 3             |   93.3333              | 87.14  |
+| 4             |   90.0000              | 86.67  |
+| 5             |   100.0000             | 84.75  |
+| 6             |   96.6667              | 87.14  |
+| 7             |   100.0000             | 90.48  |
+| 8             |   96.6667              | 89.52  |
+| 9             |   90.0000              | 78.57  |
+| 10            |   96.6667              | 87.62  |
 
-| Average       | Validation Accuracy    | Training Accuracy on Epoch 30 |
-| :-----------: | ----------------------:| ------:|
-|               |   95,6667              | 0.8499 |
+| Average       | Validation Accuracy (%) | Training Accuracy on Epoch 30 |
+| :-----------: | -----------------------:| ------:|
+|               |   95.6667               | 84.99  |
 
 ## Correctly Classified
 
