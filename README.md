@@ -7,7 +7,7 @@ This repository contains a number of Tensorflow projects and examples written in
 
 The following is a list of the projects included in this repository:
 
-## [Tensorflow Basics](https://github.com/Carla-de-Beer/Java/tree/master/Data%20Structures%20and%20Algorithms)
+## [Tensorflow Basics](https://github.com/Carla-de-Beer/Tensorflow/tree/development/Tensorflow%20Basics)
 * [Tensor Mathematical Operations:](https://github.com/Carla-de-Beer/Tensorflow/tree/development/Tensorflow%20Basics/Tensor%20Mathematical%20Operations) Tensor mathematical operations.
 * [Tensor Operations:](https://github.com/Carla-de-Beer/Tensorflow/tree/development/Tensorflow%20Basics/Tensor%20Operations) Tensor operations.
 * [Tensors:](https://github.com/Carla-de-Beer/Tensorflow/tree/development/Tensorflow%20Basics/Tensors) Tensors.
