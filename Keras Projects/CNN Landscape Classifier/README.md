@@ -50,10 +50,10 @@ The images that were correctly classified tend to have strong visual characteris
 
 </br>
 <p align="center">
-  <img src="output/desert-sand-dunes-691431__480.jpg.png" width="450px"/>
-  <img src="output/desert-tree-64310__480.jpg.png" width="450px"/>
-  <img src="output/forest-forest-1946477__480.jpg.png" width="450px"/>
-  <img src="output/polar-arctic-415209__480.jpg.png" width="450px"/>
+  <img src="output/desert-sand-dunes-691431__480.jpg.png" width="250px"/>
+  <img src="output/desert-tree-64310__480.jpg.png" width="250px"/>
+  <img src="output/forest-forest-1946477__480.jpg.png" width="250px"/>
+  <img src="output/polar-arctic-415209__480.jpg.png" width="250px"/>
 </p>
 
 ## Misclassifications
@@ -62,8 +62,8 @@ Images that were most likely to be misclassified are those that are slightly mar
 
 </br>
 <p align="center">
-  <img src="misclassified/desert-saguaro-cactus-584405__480.png" width="450px"/>
-  <img src="misclassified/desert-desert-2631340__480.png" width="450px"/>
-  <img src="misclassified/desert-desert-1363152__480.png" width="450px"/>
-  <img src="misclassified/forest-wood-3107139__480.png" width="450px"/>
+  <img src="misclassified/desert-saguaro-cactus-584405__480.png" width="250px"/>
+  <img src="misclassified/desert-desert-2631340__480.png" width="250px"/>
+  <img src="misclassified/desert-desert-1363152__480.png" width="250px"/>
+  <img src="misclassified/forest-wood-3107139__480.png" width="250px"/>
 </p>
