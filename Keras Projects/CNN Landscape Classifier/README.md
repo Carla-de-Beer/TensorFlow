@@ -1,5 +1,7 @@
 # CNN Landscape Classifier
 
+NOTE: This project was built with Tensorflow 1.14.
+
 Convolutional neural network built with TensorFlow/Keras to allow for landscape classification based on one of three categories:
 * desert
 * forest
