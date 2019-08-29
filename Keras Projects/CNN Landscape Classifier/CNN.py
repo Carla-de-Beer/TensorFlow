@@ -1,12 +1,16 @@
+"""
+Convolutional neural network class with callback.
+"""
+
 import os
 
 import tensorflow as tf
 
-from Enums import ImageInfo
-from Enums import NetworkParams
+from enums import ImageInfo
+from enums import NetworkParams
 
 
-class myCallback(tf.keras.callbacks.Callback):
+class MyCallback(tf.keras.callbacks.Callback):
     def on_epoch_end(self, epoch, logs={}):
         if (logs.get('acc') > NetworkParams.accuracy.value):
             print("\nReached {}% accuracy. Ending training.".format(NetworkParams.accuracy.value * 100))
@@ -42,9 +46,10 @@ class CNN:
             tf.keras.layers.MaxPooling2D(2, 2),
 
             # Flatten the results to feed into a DNN
+            # Flatten (or unroll) the 3D output to 1D, then add one or more Dense layers on top
             tf.keras.layers.Flatten(),
 
-            # 2048 neuron hidden layer
+            # 2048-neuron hidden layer
             tf.keras.layers.Dense(2048, activation='relu'),
 
             # 3 output neurons
@@ -60,6 +65,7 @@ class CNN:
                       metrics=['accuracy'])
 
         # All images will be rescaled by 1./255
+        # i.e. normalize pixel values to be between 0 and 1
         train_datagen = tf.keras.preprocessing.image.ImageDataGenerator(rescale=1 / 255)
 
         # Flow training images in batches of 128 using train_datagen generator
@@ -74,7 +80,7 @@ class CNN:
             steps_per_epoch=8,
             epochs=NetworkParams.num_epochs.value,
             verbose=1,
-            callbacks=[myCallback()])
+            callbacks=[MyCallback()])
 
         unseen_dir = os.path.join('unseen')
         unseen_names = os.listdir(unseen_dir)

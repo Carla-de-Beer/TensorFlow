@@ -1,10 +1,14 @@
+"""
+Classifier.
+"""
+
 import matplotlib.pyplot as plt
 import numpy as np
 import tensorflow as tf
 from keras.preprocessing import image
 
-from Enums import LandscapeType
-from Enums import ImageInfo
+from enums import LandscapeType
+from enums import ImageInfo
 
 
 class Classifier:
@@ -57,5 +61,5 @@ class Classifier:
                 else:
                     print(message + ' - WRONG.')
 
-        classification_accuracy = count / len(unseen_names)
-        print('Validation accuracy on unseen images: {0:.4f}'.format(classification_accuracy * 100))
+                    classification_accuracy = count / len(unseen_names)
+                    print('Validation accuracy on unseen images: {0:.4f}'.format(classification_accuracy * 100))
