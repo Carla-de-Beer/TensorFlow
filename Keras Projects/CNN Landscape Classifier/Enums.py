@@ -17,4 +17,4 @@ class ImageInfo(enum.Enum):
 
 class NetworkParams(enum.Enum):
     accuracy = 0.95
-    num_epochs = 10
+    num_epochs = 15
