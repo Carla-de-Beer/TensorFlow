@@ -1,7 +1,7 @@
-# TensorFlow 1.14 Projects
+# TensorFlow 1.x Projects
 [![GitHub issues](https://img.shields.io/github/issues/Carla-de-Beer/tensorflow-1.x-projects.svg?style=flat-square)](https://github.com/Carla-de-Beer/tensorflow-1.x-projects/issues)
 
-This repository contains a number of TensorFlow v1.14 projects written in Python 3.6.
+This repository contains a number of TensorFlow v1.x projects written in Python 3.6.
 
 ## List of projects
 
