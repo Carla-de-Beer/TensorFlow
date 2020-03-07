@@ -1,11 +1,11 @@
 # TensorFlow 1.x Projects
 [![GitHub issues](https://img.shields.io/github/issues/Carla-de-Beer/tensorflow-1.x-projects.svg?style=flat-square)](https://github.com/Carla-de-Beer/tensorflow-1.x-projects/issues)
 
-This repository contains a number of TensorFlow v1.x projects written in Python 3.6.
+This repository contains a number of TensorFlow v1.x exercises written in Python 3.6.
 
 ## List of projects
 
-The following is a list of the projects included in this repository:
+The following is a list of the exercises included in this repository:
 
 ## [TensorFlow Basics](https://github.com/Carla-de-Beer/tensorflow-1.x-projects/tree/development/tensorflow-basics)
 * [Tensor Mathematical Operations:](https://github.com/Carla-de-Beer/tensorflow-1.x-projects/tree/development/tensorflow-basics/tensor-mathematical-operations) Tensor mathematical operations.
